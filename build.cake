@@ -54,6 +54,7 @@ Task("Build")
                     .SetVerbosity(verbosity)
                     );
 });
+
 Task("Test")
     .IsDependentOn("Build")
 	.Description("Run all unit tests - under code coverage")
