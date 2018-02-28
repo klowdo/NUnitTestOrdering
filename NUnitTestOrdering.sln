@@ -1,12 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestOrdering", "src\NUnitTestOrdering\NUnitTestOrdering.csproj", "{2B5D82D8-DAA7-4D47-BD97-B70C5135EB1D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestOrdering.Tests", "src\NUnitTestOrdering.Tests\NUnitTestOrdering.Tests.csproj", "{AAFFEF62-8644-4AA6-8E89-DABCAC6DB523}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5D8E752C-FF6F-45E8-A2A3-B3A1711BD855}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{C0DF9649-D7D0-447F-B903-DFDA63062D20}"
@@ -27,28 +23,28 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", 
 		nuget\content\Properties\EnableTestOrdering.cs = nuget\content\Properties\EnableTestOrdering.cs
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnitTestOrdering", "src\NUnitTestOrdering\NUnitTestOrdering.csproj", "{5E5C9345-A6E4-49A5-9F4D-65DE62D704F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2B5D82D8-DAA7-4D47-BD97-B70C5135EB1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2B5D82D8-DAA7-4D47-BD97-B70C5135EB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2B5D82D8-DAA7-4D47-BD97-B70C5135EB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2B5D82D8-DAA7-4D47-BD97-B70C5135EB1D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AAFFEF62-8644-4AA6-8E89-DABCAC6DB523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AAFFEF62-8644-4AA6-8E89-DABCAC6DB523}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AAFFEF62-8644-4AA6-8E89-DABCAC6DB523}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AAFFEF62-8644-4AA6-8E89-DABCAC6DB523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E5C9345-A6E4-49A5-9F4D-65DE62D704F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E5C9345-A6E4-49A5-9F4D-65DE62D704F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E5C9345-A6E4-49A5-9F4D-65DE62D704F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E5C9345-A6E4-49A5-9F4D-65DE62D704F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{2B5D82D8-DAA7-4D47-BD97-B70C5135EB1D} = {5D8E752C-FF6F-45E8-A2A3-B3A1711BD855}
-		{AAFFEF62-8644-4AA6-8E89-DABCAC6DB523} = {5D8E752C-FF6F-45E8-A2A3-B3A1711BD855}
 		{E82151E1-46E2-401A-A951-EF86CDE094E3} = {77364EAA-9360-4617-AD71-AFFDDDE8D9DC}
 		{057A60C5-91D6-4363-B4CB-A16958602AE2} = {E82151E1-46E2-401A-A951-EF86CDE094E3}
+		{5E5C9345-A6E4-49A5-9F4D-65DE62D704F1} = {5D8E752C-FF6F-45E8-A2A3-B3A1711BD855}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C97F6222-E5B5-4BF4-AE34-7F61CE15F71D}
 	EndGlobalSection
 EndGlobal

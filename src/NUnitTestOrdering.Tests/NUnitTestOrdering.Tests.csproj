@@ -287,7 +287,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NUnitTestOrdering\NUnitTestOrdering.csproj">
-      <Project>{2b5d82d8-daa7-4d47-bd97-b70c5135eb1d}</Project>
+      <Project>{5e5c9345-a6e4-49a5-9f4d-65de62d704f1}</Project>
       <Name>NUnitTestOrdering</Name>
     </ProjectReference>
   </ItemGroup>
